@@ -1,0 +1,19 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #C8736F;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#link {
+    width: 20%;
+    height: 50%;
+    background: #6FC878;
+    text-align: center;
+    border: 2px solid #6FC878;
+    border-radius: 5px;
+    font-size: 1.25em;
+    padding: 5px;
+}
