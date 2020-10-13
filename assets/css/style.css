@@ -11,7 +11,11 @@ body {
 .container {
     display: flex;
     flex-wrap: row;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+#content {
+    width: 50vw;
 }
 
 ul {
