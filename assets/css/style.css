@@ -5,14 +5,47 @@ body {
     color: #FFFFFF;
     text-align: center;
     font-family: Helvetica;
+    
 }
 
-#link {
-    width: 20%;
+.container {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+
+#content {
+    width: 50vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    width: 350px;
     height: 50%;
     background: #6FC878;
     text-align: center;
     border: 2px solid #6FC878;
     border-radius: 5px;
     font-size: 1.25em;
+    padding: 5px;
 }
+
+ul a {
+    color: #FFF;
+}
+
+ul a:hover {
+    color: lightblue;
+}
+
+ul img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+
