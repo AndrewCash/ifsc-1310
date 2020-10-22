@@ -13,6 +13,10 @@ body {
     justify-content: space-around;
 }
 
+#header {
+    width: 25vw;
+}
+
 #content {
     width: 50vw;
 }
@@ -49,7 +53,12 @@ ul img {
 
 nav {
     position: fixed;
-    width: 50%;
+    width: 25vw;
     bottom: 10px;
     left: 0px;
+    margin: 5px;
+}
+
+nav li {
+    width: 50%;
 }
