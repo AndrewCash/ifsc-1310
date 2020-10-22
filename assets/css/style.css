@@ -55,8 +55,10 @@ nav {
     position: fixed;
     width: 25vw;
     bottom: 10px;
-    left: 0px;
+    right: 0px;
     margin: 5px;
+    margin-right: 0px;
+    padding: 5px;
 }
 
 nav li {
