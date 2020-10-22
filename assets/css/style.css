@@ -38,10 +38,13 @@ ul li {
     border-radius: 5px;
     font-size: 1.25em;
     padding: 5px;
+    margin: 0;
 }
 
 ul a {
     color: #FFF;
+    display: block;
+    text-decoration: none;
 }
 
 ul a:hover {
