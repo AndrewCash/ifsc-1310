@@ -131,6 +131,10 @@ section#content {
     padding-bottom: 2.4em;
 }
 
+#content h2 {
+    margin: auto;
+}
+
 #content article.post {
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
@@ -295,4 +299,38 @@ dd+dt {
     padding: 40px;
     border-top: 5px solid #c0c0c0;
     border-bottom: 5px solid #c0c0c0;
+}
+
+
+/* ----- Frequently Asked Questions ----- */
+
+#faq {
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 2.4em;
+}
+
+#faq li {
+    width: 50%;
+    padding: 10px;
+    font-size: .8rem;
+    margin: auto;
+}
+
+#faq li:nth-child(odd) {
+    /* question */
+    /* color: blue; */
+    font-size: 1rem;
+    list-style-type: square;
+    text-align: center;
+}
+
+#faq li:nth-child(even) {
+    /* answer */
+    /* color: red; */
+    font-size: .8rem;
+    list-style-type: circle;
 }
