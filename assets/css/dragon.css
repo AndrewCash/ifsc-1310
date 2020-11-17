@@ -116,7 +116,8 @@ header.primary nav a:active {
 }
 
 #intro h2 {
-    color: #3b638b;
+    margin: auto;
+    text-align: center;
 }
 
 #intro p {
@@ -129,10 +130,6 @@ section#content {
     justify-content: space-between;
     border-bottom: 1px solid #c0c0c0;
     padding-bottom: 2.4em;
-}
-
-#content h2 {
-    margin: auto;
 }
 
 #content article.post {
@@ -239,9 +236,11 @@ footer#colophon {
 }
 
 table {
-    width: 100%;
+    width: 75%;
     border: 1px solid #c0c0c0;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 caption {
