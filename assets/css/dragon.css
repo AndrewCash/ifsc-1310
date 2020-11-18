@@ -114,6 +114,11 @@ header.primary nav a:active {
     background-color: rgba(0, 0, 0, .8);
 }
 
+header#page-header img {
+    width: 50%;
+    height: 10%;
+}
+
 #intro {
     border-bottom: 1px solid #c0c0c0;
     padding-bottom: 1.5em;
