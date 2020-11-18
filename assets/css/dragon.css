@@ -201,6 +201,19 @@ footer#colophon {
     background-color: #3b638b;
 }
 
+footer#colophon a:link,
+footer#colophon a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer#colophon a:hover,
+footer#colophon a:active {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #colophon h6 {
     padding: 20px;
     margin: 0;
