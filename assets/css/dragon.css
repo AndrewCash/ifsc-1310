@@ -113,11 +113,11 @@ header.primary nav a:active {
 #intro {
     border-bottom: 1px solid #c0c0c0;
     padding-bottom: 1.5em;
+    text-align: center;
 }
 
 #intro h2 {
     margin: auto;
-    text-align: center;
 }
 
 #intro p {
