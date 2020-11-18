@@ -58,7 +58,9 @@ body {
 }
 
 header.primary {
-    background-color: #C8736F;
+    background-image: url("../images/dragon/dragon-in-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px #000;
