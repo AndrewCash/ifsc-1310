@@ -157,6 +157,10 @@ section#content {
     height: auto;
 }
 
+#content h2 {
+    padding: auto auto 5px auto;
+}
+
 
 /* ----- Attribure Selector ----- */
 
@@ -354,10 +358,15 @@ dd+dt {
     flex-direction: row;
     justify-content: space-around;
     text-align: justify;
-    padding: 5px;
+    padding: 20px 5px 50px 5px;
 }
 
 .capsule-usage-distinction ul {
     height: 100%;
     margin-top: -4px;
+}
+
+.capsule-usage-distinction ul li {
+    list-style-type: none;
+    text-indent: 30px;
 }
