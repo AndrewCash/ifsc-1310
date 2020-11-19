@@ -142,11 +142,14 @@ section#content {
     text-align: center;
 }
 
+#content p {
+    text-align: left;
+    text-indent: 50px;
+}
+
 #content li {
     text-align: left;
 }
-
-#content img {}
 
 #content article.post {
     width: 30%;
@@ -368,6 +371,7 @@ dd+dt {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-align: justify;
     padding: 5px;
 }
 
