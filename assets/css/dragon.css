@@ -135,10 +135,15 @@ header#page-header img {
 
 section#content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     border-bottom: 1px solid #c0c0c0;
     padding-bottom: 2.4em;
+}
+
+#content h2,
+#content h4 {
+    text-align: center;
 }
 
 #content article.post {
