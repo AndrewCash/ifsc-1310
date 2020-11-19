@@ -157,35 +157,6 @@ section#content {
     height: auto;
 }
 
-#content article.post {
-    width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
-    padding: 10px;
-    transition: .6s;
-    font-size: .8rem;
-}
-
-#content article.post:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, .4);
-}
-
-#content article time,
-#content article figcaption,
-#content article footer {
-    font-size: .8em;
-    color: #c0c0c0;
-    text-transform: uppercase;
-}
-
-#content .post a:link,
-#content .post a:visited {
-    color: #3b638b;
-}
-
-#content .post figure {
-    margin: 0;
-}
-
 
 /* ----- Attribure Selector ----- */
 
