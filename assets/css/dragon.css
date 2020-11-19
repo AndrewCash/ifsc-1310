@@ -347,6 +347,7 @@ dd+dt {
     padding: 10px;
     font-size: .8rem;
     margin: auto;
+    text-indent: 50px;
 }
 
 #faq li:nth-child(odd) {
