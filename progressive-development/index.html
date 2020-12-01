@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thoughts on progressive web development</title>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="description" content="andrew cash ifsc-1310 web technologies progressive enhancement thoughts assignment" />
+    <meta name="author" content="Andrew Cash" />
+</head>
+
+<body>
+    <div id="header">
+        <h1>Andrew Cash</h1>
+        <h3>IFSC 1310 Homepage</h3>
+    </div>
+    <!-- /* end header div */ -->
+
+    <div class="article">
+        <br>
+        <h2>Thoughts on Progressive Enhancement</h2>
+        <p>
+            When the world wide web was origionally invented, it was made with the intent to serve information to many different people from many different places. Web browsers were much simpler in their first incarnation. They simply printed lines of text without
+            much styling or dynamic changes. Web pages were just static information.
+        </p>
+        <p>
+            As fancier, more complex browsers were made, new features were added that changed how users viewed and interacted with content on the web. Websites were created in such a way that attempted to push the bounds of the web and utilize as many new features
+            as they could.
+        </p>
+        <p>
+            A problem began to emerge. Not everyone using these websites were using the latest and greatest web browsers for a multitude of reasons.
+            <ul>
+                <li>Perhaps the user might be on a company computer that uses only a specific, older version of a browesr that the IT department has deemed trustworthy.</li>
+                <li>Perhaps the user is on a mobile device.</li>
+                <li>Perhaps the user is using text only mode on a CLI browser.</li>
+                <li>Perhaps the user is browing with javascript turned off.</li>
+                <li>Perhaps the user is seeing or hearing impared.</li>
+                <li>Perhaps the user might not even be a human at all, but a web crawler program indexing websites for a search engine.</li>
+            </ul>
+        </p>
+
+        <p>
+            This could lead to a poor, disjointed user experience and make it more difficult for users to find the information they were looking for in the first place.
+        </p>
+        <p>
+            This is where Progressive Enhancement could come into play.
+        </p>
+        <p>
+            With Progressive Enhancement each part of the webpage serves a specific purpose. The HTML of a page should only serve the markup of the text content a page is intended to show. It should not concern itself with how it will be presented or dynamically
+            displaying content.
+        </p>
+        <p>
+            CSS files can take care of the styling and JS files can take care of dynamic functionalty. Developers should stray away from inline styles or scripts. They should make sure that the content is avaliable first before the page does anything fancy using
+            techniques and features that might not be avaliable to every user.
+        </p>
+    </div>
+    <!-- /* end content div */ -->
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+    <!-- End of Nav -->
+</body>
+
+</html>

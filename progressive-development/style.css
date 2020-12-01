@@ -1,0 +1,34 @@
+.article {
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow: hidden;
+}
+
+.article h* {
+    text-align: center;
+}
+
+.article p {
+    text-indent: 2em;
+    text-align: left;
+}
+
+.article li {
+    list-style: square;
+    width: 100%;
+    height: 100%;
+    background: none;
+    text-align: left;
+    border: none;
+    border-radius: none;
+    font-size: 100%;
+    padding: none;
+    margin: 0px;
+}
+
+.article ul {
+    margin: unset;
+    margin-top: unset;
+    width: 75%;
+    height: 100%;
+}
