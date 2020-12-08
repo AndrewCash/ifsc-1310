@@ -1,0 +1,372 @@
+/* ----- Box Sizing ----- */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* ----- Utility styles ----- */
+
+.container {
+    width: 80vw;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.img-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    /* border: 1px solid #c0c0c0; */
+    padding: 5px;
+}
+
+.img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    /* border: 1px solid #c0c0c0; */
+    padding: 5px;
+}
+
+.img-center {
+    display: block;
+    margin: 20px auto;
+    /* border: 1px solid #c0c0c0; */
+    padding: 5px;
+}
+
+
+/* ----- Responsive images ----- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ----- Global Styles ----- */
+
+body {
+    background-color: lavenderblush;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header.primary {
+    background-image: url("../assets/images/dragon/dragon-in-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    padding: 40px 40px 20px 40px;
+}
+
+header.primary h1 {
+    font-size: 3.2rem;
+    margin: 20px 0;
+}
+
+header.primary h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header.primary h2 {
+    font-size: 2em;
+    margin: 20px auto 40px;
+}
+
+header.primary nav li {
+    list-style-type: none;
+    padding: 0;
+}
+
+header.primary nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: .6s;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+header#page-header img {
+    width: 50%;
+    height: 10%;
+}
+
+#intro {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+#intro h2 {
+    margin: auto;
+}
+
+#intro p {
+    line-height: 1.5;
+}
+
+section#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 2.4em;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#content p {
+    text-align: left;
+    text-indent: 50px;
+}
+
+#content li {
+    text-align: left;
+}
+
+#content img {
+    width: 50%;
+    height: auto;
+}
+
+#content h2 {
+    padding: auto auto 5px auto;
+}
+
+
+/* ----- Attribure Selector ----- */
+
+aside[role="complementary"] {
+    background-color: #172635;
+    color: #fff;
+    padding: 2.5em;
+}
+
+aside .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+aside article.widget {
+    width: 30vw;
+}
+
+aside article a:link,
+aside article a:visited {
+    color: #fff;
+    display: block;
+    margin-top: 1.2em;
+    letter-spacing: 1.2px;
+}
+
+aside article a:hover,
+aside article a:active {
+    text-decoration: none;
+}
+
+aside article footer {
+    display: none;
+}
+
+footer#colophon {
+    background-color: #3b638b;
+}
+
+footer#colophon a:link,
+footer#colophon a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer#colophon a:hover,
+footer#colophon a:active {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#colophon h6 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+#additional-elements h2 {
+    color: #3b638b;
+    border-bottom: 1px dotted #c0c0c0;
+}
+
+#additional-elements a:link,
+#additional-elements a:visited {
+    color: #3b638b;
+}
+
+#additional-elements a:hover,
+#additional-elements a:active {
+    text-decoration: none;
+}
+
+#additional-elements p {
+    line-height: 1.5;
+}
+
+#additional-elements h3,
+#additional-elements h4 {
+    border-left: 5px solid #3b638b;
+    padding: 5px 10px;
+}
+
+table {
+    width: 75%;
+    border: 1px solid #c0c0c0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+th {
+    background: #3b638b;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background: #DCDCDC;
+}
+
+tr:hover {
+    background: lightsteelblue;
+}
+
+#additional-elements ol {
+    list-style-type: upper-roman;
+}
+
+#additional-elements ul ul {
+    list-style-type: square;
+}
+
+#additional-elements dt {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: auto;
+}
+
+#additional-elements dd {
+    margin: 0;
+}
+
+dd+dt {
+    margin-top: 20px;
+}
+
+#additional-elements blockquote {
+    background-color: rgba(0, 0, 0, .1);
+    padding: 40px;
+    border-top: 5px solid #c0c0c0;
+    border-bottom: 5px solid #c0c0c0;
+}
+
+
+/* ----- Frequently Asked Questions ----- */
+
+#faq {
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 2.4em;
+}
+
+#faq li {
+    width: 50%;
+    padding: 10px;
+    font-size: .8rem;
+    margin: auto;
+}
+
+#faq li:nth-child(odd) {
+    /* question */
+    /* color: blue; */
+    font-size: 1rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+#faq li:nth-child(even) {
+    /* answer */
+    /* color: red; */
+    font-size: .8rem;
+    list-style-type: none;
+    text-indent: 50px;
+}
+
+#faq li:nth-child(even) p {
+    text-indent: 50px;
+}
+
+
+/* ----- Home Page ----- */
+
+.capsule-usage-distinction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 20px 5px 50px 5px;
+}
+
+.capsule-usage-distinction ul {
+    height: 100%;
+    margin-top: -4px;
+}
+
+.capsule-usage-distinction ul li {
+    list-style-type: none;
+    text-indent: 30px;
+}
