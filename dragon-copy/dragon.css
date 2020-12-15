@@ -141,6 +141,8 @@ section#content {
     padding-bottom: 2.4em;
     text-align: center;
     flex-wrap: wrap;
+    font-size: .8em;
+    
 }
 
 #content p {
@@ -369,4 +371,5 @@ dd+dt {
 .capsule-usage-distinction ul li {
     list-style-type: none;
     text-indent: 30px;
+    margin-bottom: 5px;
 }
